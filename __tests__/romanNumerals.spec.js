@@ -6,6 +6,7 @@ describe('romanNumerals', function () {
         expect(RomanNumerals.fromNumber(2)).toBe('II');
         expect(RomanNumerals.fromNumber(3)).toBe('III');
         expect(RomanNumerals.fromNumber(4)).toBe('IV');
+        expect(RomanNumerals.fromNumber(2648)).toBe('MMDCXLVIII');
 
     });
 
