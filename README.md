@@ -1,12 +1,11 @@
 ##Install:
 
-    yarn install
     npm install
+    npm install yarn
 
 ##To run the app:
-    node src/server.js
+   node src/server.js
 
 ##To run test:
-
-    ./node_modules/.bin/jest
+   ./node_modules/.bin/jest || npm test
 
